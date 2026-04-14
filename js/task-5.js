@@ -12,6 +12,6 @@ btnEl.addEventListener('click', onBtnClick);
 
 function onBtnClick() {
   const color = getRandomHexColor();
-  widgetEl.style.backgroundColor = color;
+  document.body.style.backgroundColor = color;
   colorEl.textContent = color;
 }
